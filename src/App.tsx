@@ -41,8 +41,8 @@ function getItem(
 const { Title } = Typography;
 
 const items: MenuItem[] = [
-  getItem("Option 1", "1", <PieChartOutlined />),
-  getItem("Option 2", "2", <DesktopOutlined />),
+  getItem("Home", "1", <PieChartOutlined />),
+  getItem("About Us", "2", <DesktopOutlined />),
   getItem("User", "sub1", <UserOutlined />, [
     getItem("Tom", "3"),
     getItem("Bill", "4"),
@@ -122,9 +122,9 @@ const App: React.FC = () => {
         >
           <Image
             alt="logo"
-            src="https://raw.githubusercontent.com/vsdev97/my-portfolio/refs/heads/master/devx.png?token=GHSAT0AAAAAACY7BBB4EL6QOIZTRRN42QT6ZYWNELQ"
-            height={"50%"}
-            width={"50%"}
+            src="https://devxinitiative.org/images/devX-logo.svg"
+            height={70}
+            width={150}
           />
         </Flex>
         <Menu
@@ -143,9 +143,10 @@ const App: React.FC = () => {
             background: menuTheme === "dark" ? undefined : colorBgContainer,
           }}
         >
-          <Title level={4} style={{ fontFamily: "serif", color: titleColor }}>
-            Welcome to DevX
-          </Title>
+          <Title
+            level={4}
+            style={{ fontFamily: "serif", color: titleColor }}
+          ></Title>
           <Switch
             checked={menuTheme === "dark"}
             onChange={changeTheme}
@@ -234,7 +235,7 @@ const App: React.FC = () => {
             fontFamily: "serif",
           }}
         >
-          Ant Design ©{new Date().getFullYear()} Created by Ant UED
+          DevX ©{new Date().getFullYear()} Created by @VsDev
         </Footer>
       </Layout>
     </Layout>
