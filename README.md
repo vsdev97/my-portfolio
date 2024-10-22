@@ -45,10 +45,10 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-Dark -
+Dark Theme -
 
-![image](https://github.com/user-attachments/assets/8423d1df-7dcb-4ac2-8544-5b3d3fc376ac)
+![image](https://github.com/user-attachments/assets/9fec50a3-ab16-4c16-9227-ef53dfbcf347)
 
-Light - ![image](https://github.com/user-attachments/assets/18374c9f-365d-4233-8fce-22fd967e942a)
+Light Theme - ![image](https://github.com/user-attachments/assets/18374c9f-365d-4233-8fce-22fd967e942a)
 
 
